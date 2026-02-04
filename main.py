@@ -8,7 +8,7 @@ headers = {
     "Content-Type": "application/json"
 }
 
-text = input("Enter your text:")
+text = input("Enter your text:").strip()
 
 response = requests.post(
     api_url,
